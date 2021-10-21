@@ -75,7 +75,8 @@ p{
 /* style the element with the ID container */
 #container{
     width:1024px;
-    margin: 20px;
+    margin:0 auto; /* 0 on the top and bottom, and "auto" on the left and right
+    This will centre the element in the browser window */
 }
 
 section{ 
@@ -91,4 +92,9 @@ section{
     padding-left
     padding-right
     */
+}
+
+/* style the element with the class header-image */
+.header-image{
+    width:100%; /* 100% of the width of whatever element this image is inside of */
 }
