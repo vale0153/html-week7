@@ -77,3 +77,18 @@ p{
     width:1024px;
     margin: 20px;
 }
+
+section{ 
+    margin:15px; /* margin is on the outside and pushes elements away */
+    border: 2px solid #0FF;
+    padding:20px 10px 15px 25px; /* padding is on the inside and pushes content away from the edge */
+    /* when you use four values in padding or margin, it's top, right, bottom, left */
+
+    /*
+    you can style individually padding, margin (and even border) on each side of the element:
+    padding-top
+    padding-bottom
+    padding-left
+    padding-right
+    */
+}
